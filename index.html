@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!--HEADER-->
-    <header>
-      <nav>
-        <a href="./index.html"
-          ><img
-            src="./images/logo.svg"
-            alt="Logo"
-            width="40"
-            height="36"
-          />Product</a
-        >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./prising.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="logo header-logo" href="./index.html"
+            ><img
+              src="./images/logo.svg"
+              alt="Logo"
+              width="40"
+              height="36"
+            />Product</a
+          >
+          <ul class="hrader-navigation-list">
+            <li class="hrader-nav-item"><a class="header-nav-link current" href="./index.html">Product</a></li>
+            <li class="header-nav-item"><a class="header-nav-link" href="./prising.html">Pricing</a></li>
+            <li class="header-nav-item"><a class="header-nav-link" href="./customers.html">Customers</a></li>
+            <li class="header-nav-item"><a class="header-nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="header-auth-list">
+          <li class=" header-auth-item"><button class="main-btn header-auth-btn" type="button">Sign In</button></li>
+          <li class=" header-auth-item"><button class="main-btn header-auth-btn" type="button">Sign Up</button></li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
 
     <!--HERO SACTION-->
@@ -295,6 +302,43 @@
           </li>
         </ul>
       </section>
+
+      <!---->
+    <section>
+      <div>
+        <h2>Join 100 Compannies who boost their business with Product</h2>
+        <button type="button">Get This</button>
+        <img src="./images/graphics.png" alt="Graphics">
+      </div>
+    </section>
+
+    <!--FOOTER-->
+  <footer>
+      <section>
+        <a href="./index.html"><img
+              src="./images/logo.svg"
+              alt="Logo"
+              width="40"
+              height="36"
+            />Product</a>
+        <p>Resource</p>
+        <ul>
+          <li><a href="">About Us</a> </li>
+          <li><a href="">Blog</a>></li>
+          <li><a href="">Contact</a></li>
+          <li><a href>FAQ</a></li>
+        </ul>
+        <p>Legal Stuff</p>
+        <ul>
+          <li><a href="">Disclaimer</a></li>
+          <li><a href="">Financing</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+        <p>knowing you're always on the best energy deal.</p>
+        <button>Sign up Now</button>
+        <p>Made With Love By Figmaland All Right Reserved </p>
+      </section>
+  </footer>
     </main>
   </body>
 </html>
